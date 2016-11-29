@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Front-End Web Development",
+    "description": "Web Development Services to meet...well, your front-end objectives",
+    "image": "assets/img/eric.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Back-End Web Development",
+    "description": "Build that RESTful API you've always dreamed of...",
+    "image": "assets/img/eric.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Full-Stack Web Development",
+    "description": "BOGO! The power of front-end and back-end for the price of one.",
+    "image": "assets/img/eric.jpg"
+  }
+]

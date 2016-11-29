@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Eric Mok",
+    "area": "New York City",
+    "e-mail": "emok032@gmail.com",
+    "tech": "MongoDB",
+    "status": "Available for hire",
+    "image": "assets/img/eric.jpg"
+  },
+  {
+    "name": "Eric Mok",
+    "area": "Northern New Jersey",
+    "e-mail": "emok032@gmail.com",
+    "tech": "Express.js",
+    "status": "Don't worry I'll callback you...",
+    "image": "assets/img/eric.jpg"
+  },
+  {
+    "name": "Eric Mok",
+    "area": "Central New Jersey",
+    "e-mail": "emok032@gmail.com",
+    "tech": "Angular.js",
+    "status": "Actively seeking professional opportunities",
+    "image": "assets/img/eric.jpg"
+  },
+  {
+    "name": "Eric Mok",
+    "area": "Upstate New York",
+    "e-mail": "emok032@gmail.com",
+    "tech": "Node.js",
+    "status": "Pick me!",
+    "image": "assets/img/eric.jpg"
+  }
+]
