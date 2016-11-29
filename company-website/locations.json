@@ -1,33 +1,41 @@
 [
   {
     "name": "Eric Mok",
-    "area": "New York City",
+    "location": "New York City",
     "e-mail": "emok032@gmail.com",
     "tech": "MongoDB",
     "status": "Available for hire",
     "image": "assets/img/eric.jpg"
   },
   {
-    "name": "Eric Mok",
-    "area": "Northern New Jersey",
+    "name": "Eric M.",
+    "location": "Northern New Jersey",
     "e-mail": "emok032@gmail.com",
     "tech": "Express.js",
-    "status": "Don't worry I'll callback you...",
+    "status": "Don't worry I'll callback you...I promise",
     "image": "assets/img/eric.jpg"
   },
   {
-    "name": "Eric Mok",
-    "area": "Central New Jersey",
+    "name": "E. Mok",
+    "location": "Central New Jersey",
     "e-mail": "emok032@gmail.com",
-    "tech": "Angular.js",
-    "status": "Actively seeking professional opportunities",
+    "tech": "Angular.js 1.x",
+    "status": "Actively seeking professional opportunities (e.g. Permanent or Contract)",
     "image": "assets/img/eric.jpg"
   },
   {
-    "name": "Eric Mok",
-    "area": "Upstate New York",
+    "name": "(Future) Eric",
+    "location": "Upstate New York",
     "e-mail": "emok032@gmail.com",
     "tech": "Node.js",
+    "status": "Been working hard at our company",
+    "image": "assets/img/eric.jpg"
+  },
+  {
+    "name": "Mr. Eric ('Eric') Mok",
+    "location": "Remote/nomadic",
+    "e-mail": "emok032@gmail.com",
+    "tech": "Angular.js 2.0",
     "status": "Pick me!",
     "image": "assets/img/eric.jpg"
   }

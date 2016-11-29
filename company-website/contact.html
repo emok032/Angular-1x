@@ -1,19 +1,22 @@
 <div class="row">
-        <div class="col-lg-4">
-          <h2>Contact the Developer You Want!</h2>
-          <h3>Offices: </h3>
-          <div ng-repeat="locationPoint in locationsList">
-            <ul class="location">
-              <li>Name: {{locationPoint.name}}</li>
-              <li>Location: {{locationPoint.area}}</li>
-              <li>E-Mail: {{locationPoint.email}}</li>
-              <li>Skill: {{locationPoint.tech}}</li>
-              <li>Skill: {{locationPoint.status}}</li>
-              <li>Skill: {{locationPoint.image}}</li>
-            </ul>
-          </div>
-          <div class="col-lg-8">
-            <img class="eric-image" ng-src="{{locationPoint.image}}">    
-          </div>
+  <div class="col-lg-4">
+    <h2>Contact the Developer You Want!</h2>
+    <h3>Offices: </h3>
+    <div ng-repeat="locationPoint in locationsList">
+      <div class="row locations">
+        <div class="col-lg-5">
+          <ul>
+            <li>Name: {{locationPoint.name}}</li>
+            <li>Location: {{locationPoint.location}}</li>
+            <li>E-Mail: {{locationPoint.email}}</li>
+            <li>Skill: {{locationPoint.tech}}</li>
+            <li>Skill: {{locationPoint.status}}</li>
+            <li>Skill: {{locationPoint.image}}</li>
+          </ul>
         </div>
+      </div>
+      <div class="col-lg-7">
+        <img class="eric-image" ng-src="{{locationPoint.image}}">    
+      </div>
+  </div>
 </div>
