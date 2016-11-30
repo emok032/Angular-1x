@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"name": "Sailing",
+		"description": "A Description",
+		"type": "Digital Art",
+		"price": 1000,
+		"images": [
+			{
+			"imgName": "sailing.jpg"
+			},
+			{
+			"imgName": "sleepless.jpg"
+			}
+		]
+	},
+	{
+		"id": 2,
+		"name": "Sleepless",
+		"description": "A Description",
+		"type": "Digital Art",
+		"price": 2000,
+		"images": [
+			{
+			"imgName": "sleepless.jpg"
+			},
+			{
+			"imgName": "sailing.jpg"
+			}
+		]
+	}
+]
