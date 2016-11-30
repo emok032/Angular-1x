@@ -1,12 +1,8 @@
 webpackJsonp([0],[
 /* 0 */
-/***/ function(module, exports, __webpack_require__) {
+/***/ function(module, exports) {
 
-	var app = angular.module('myApp', ['ngRoute',
-	      __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./main.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
-	      __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./about.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
-	      __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./contact.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }())),
-	      __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"./services.html\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()))
+	var app = angular.module('myApp', ['ngRoute'
 	  ])
 
 	.config(['$routeProvider', function($routeProvider){

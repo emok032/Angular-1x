@@ -1,8 +1,4 @@
-var app = angular.module('myApp', ['ngRoute',
-      require('./main.html'),
-      require('./about.html'),
-      require('./contact.html'),
-      require('./services.html')
+var app = angular.module('myApp', ['ngRoute'
   ])
 
 .config(['$routeProvider', function($routeProvider){
