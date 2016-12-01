@@ -1,6 +1,6 @@
 {
   "name": "Angular-1x",
   "tagline": "Apps feat. Angular 1",
-  "body": "# Angular-1x\r\nApps feat. Angular 1\r\n\r\nExercises in various apps using Anguular 1.5x - Current WIP: If you have ideas or requests, let me know!\r\n",
+  "body": "# Let's Practice Angular!\r\n\r\nA repo with all basic angular applications in development.  Mostly a sandbox but with each one gradually building into something larger and more complex.\r\n\r\nLatest project - See \"mean-article\" - A full-stack application:\r\nObjective: to make it a practical hub for user's blogs (i.e. reddit, facebook, new editorials, etc.)\r\n  - Users can create their own articles/blog posts, edit, and delete them.\r\n  - Options to add or place the post under a new or existing category\r\n    Next Up: \r\n        - Adding more customization to categories\r\n        - Styling (definitely!)\r\n        - Add User Authentication and Sign-in logic\r\n\r\n",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
