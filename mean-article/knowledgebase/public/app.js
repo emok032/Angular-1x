@@ -22,7 +22,7 @@ app.config(['$routeProvider', function($routeProvider){
 			templateUrl: 'views/add_article.view.html',
 			controller: 'ArticlesCreateCtrl'
 		}).
-		when('/categories/edit/:id', {
+		when('/articles/edit/:id', {
 			templateUrl: 'views/edit_article.view.html',
 			controller: 'ArticlesEditCtrl'
 		}).

@@ -14,11 +14,17 @@ body {
 	margin-bottom 10px;
 	padding-bottom: 10px;
 }
+
+.createRow {
+	margin-top: 20px;
+}
+
 a {
   color: #00B7FF;
 }
 
 footer {
+	margin-top: 10px;
 	background: #333;
 	color: #fff;
 	height: 30px;

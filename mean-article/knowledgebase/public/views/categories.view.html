@@ -18,17 +18,25 @@
 	<div class="row">
 		<div class="articles">
 			<div ng-repeat="article in articles">
-				<div class="col-md-12">
+				<div class="col-md-6">
 					<div class="article">
 						<h3>{{article.title}}</h3>
 						<p>{{article.body | limitTo: 100}}</p>
-						<a class="btn btn-danger" href="#/articles/details/{{article._id}}">Read</a>
+						<a class="btn btn-default" href="#/articles/details/{{article._id}}">Read On...</a>
 					</div>
 				</div>
 			</div>
 			<div ng-if="articles == false">
 				No Articles To Display
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="createRow">
+	<div class="row">
+		<div class="col-lg-12">
+		<a class="btn btn-warning" href="#/articles/add">Create An Article</a>
 		</div>
 	</div>
 </div>
