@@ -3,6 +3,17 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
+.heading {
+	background: #333;
+	color: #fff;
+	padding: 5px;
+}
+
+.article {
+	border-bottom: #ccc solid 1px;
+	margin-bottom 10px;
+	padding-bottom: 10px;
+}
 a {
   color: #00B7FF;
 }
@@ -11,6 +22,7 @@ footer {
 	background: #333;
 	color: #fff;
 	height: 30px;
-	padding: 10p 0;
+	padding-top: 10px;
+	padding-bottom: 50px;
 	text-align: center;
 }
