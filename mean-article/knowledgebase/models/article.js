@@ -18,6 +18,10 @@ var articleSchema = mongoose.Schema({
 	date: {
 		type: Date,
 		default: Date.now
+	},
+	debit: {
+		type: String,
+		default: 0
 	}
 });
 

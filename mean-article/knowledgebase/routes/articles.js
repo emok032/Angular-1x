@@ -39,12 +39,14 @@ router.post('/', function(req, res, next){
 	var title		= req.body.title;
 	var category 	= req.body.category;
 	var body		= req.body.body;
+	var debit		= req.body.debit;
 
 	// Article Object
 	var newArticle = new Article({
 		title: title,
 		category: category,
-		body: body
+		body: body,
+		debit: req.body.debit
 	});
 
 	// Create Article
@@ -62,7 +64,8 @@ router.put('/', function(req, res, next){
 	var data = {
 		title: req.body.title,
 		category: req.body.category,
-		body: req.body.body
+		body: req.body.body,
+		debit: req.body.debit
 	};
 
 	Article.updateArticle(id, data, function(err, article){

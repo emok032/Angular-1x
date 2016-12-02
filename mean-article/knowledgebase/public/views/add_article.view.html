@@ -6,17 +6,25 @@
 	    <input type="text" class="form-control" ng-model="title" name="title" placeholder="Enter Title">
 	  </div>
 	  <div class="form-group">
-	  	<label>Category</label>
+	  	<label>Select Your Vacation Type</label>
 	  	<select class="form-control" ng-model="category" name="category">
 	  		<option ng-repeat="category in categories" value="{{category.name}}">{{category.name}}</option>
 	  	</select>
-	    <input type="text" class="form-control" ng-model="category" name="category" placeholder="Enter Category">
+	    <input type="text" class="form-control" ng-model="category" name="category" placeholder="Or Create Your Own Vacation">
+	  </div>
+	  <div>
+    	<rzslider
+	         rz-slider-model="slider.value" rz-slider-options="slider.options">
+         </rzslider>
+         <input type="number", ng-model="slider.value" name="sliderInput" step="0.01" value='0.00' placeholder="Or Enter Exact Value">
 	  </div>
 	  <div class="form-group">
 	  	<label>Body</label>
-	    <textarea type="text" class="form-control" ng-model="body" name="body" placeholder="Enter Article Body"></textarea>
+	    <textarea type="text" class="form-control" ng-model="body" name="body" placeholder="Write a review or recommendation for fellow travelers"></textarea>
 	  </div>
 	  	<button type="submit" class="btn btn-primary">Submit</button>	 
 	  	<a class="btn btn-danger" href="#/categories">Cancel</a> 
 	</form>
+
+	
 </div>
