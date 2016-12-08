@@ -7,7 +7,8 @@ angular.module('LoginMod').controller('LoginCtrl', ['$scope', '$http', 'toastr',
 			email: $scope.email,
 			password: $scope.password
 		}).then(function onSuccess(){
-			window.location('/')
+			console.log('Login Passed!');
+			window.location = '/dashboard';
 		}).catch(function onError(err){
 			if(err.status == 400 || 404){
 				toastr.error('Invalid Login', 'Error', {
@@ -18,6 +19,7 @@ angular.module('LoginMod').controller('LoginCtrl', ['$scope', '$http', 'toastr',
 			toastr.error('Error, try again', 'Error', {
 					closeButton: true
 				});
+			return;
 		})
 	}
 }]);

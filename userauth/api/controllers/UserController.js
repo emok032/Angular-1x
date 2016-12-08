@@ -55,6 +55,7 @@ module.exports = {
 		})
 	},
 	login: function(req, res){
+		console.log('test');
 		//  Validating User
 		User.findOne({
 			email: req.param('email')
@@ -65,6 +66,26 @@ module.exports = {
 			if(!user){
 				return res.notFound();
 			}
+
+			require('machinepack-passwords').checkPassword({
+				passwordAttempt: req.param('password'),
+				encryptedPassword: user.password
+			}).exec({
+				error: function(err){
+					console.log('Error With Password');
+					return res.negotiate(err);
+				},
+				incorrect: function(){
+					console.log('Incorrect Password');
+					return res.notFound();
+				},
+				success: function(){
+					req.session.me = user.id;
+					
+					console.log('Success');
+					return res.ok();
+				}
+			})
 		})
 	}
 };
