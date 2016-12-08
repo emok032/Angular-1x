@@ -1,19 +1,24 @@
-<h3 class="heading">{{category}} Articles</h3>
+<h3 class="heading">{{category}} Doughnuts</h3>
 <div ng-controller = "ArticlesCategoryCtrl">
 	<a class="btn btn-default" href="#/categories">Return Home</a>
 	<div class="row">
-		<div class="articles">
-			<div ng-repeat="article in articles">
+		<div class="flavoredDoughnuts">
+			<div ng-repeat="flavor in cat_doughnuts">
 				<div class="col-md-12">
-					<div class="article">
-						<h3>{{article.title}}</h3>
-						<p>{{article.body | limitTo: 200}}</p>
-						<a class="btn btn-primary" href="#/articles/details/{{article._id}}">Read</a>
+					<div class="flavoredDoughnuts">
+						<h3>{{cat_doughnuts.title}}</h3>
+						<p ng-bind="categoryDoughnuts.debit | currency: $"><strong>{{cat_doughnuts.debit}}</strong></p>
+						<p>{{cat_doughnuts.body | limitTo: 200}}</p>
+						<a class="btn btn-primary" href="#/articles/details/{{cat_doughnuts._id}}">Read</a>
 					</div>
 				</div>
 			</div>
-			<div ng-if="articles == false">
-				No Categories To Display
+			<div class="actions">
+				<a href="#/articles/edit/{{cat_doughnuts._id}}" class="btn btn-success">Edit</a>
+				<a href="#" class="btn btn-danger" ng-click="removeArticle()">Delete</a>
+			</div>
+			<div ng-if="cat_doughnuts == false">
+				No Flavors To Display
 			</div>
 		</div>
 	</div>

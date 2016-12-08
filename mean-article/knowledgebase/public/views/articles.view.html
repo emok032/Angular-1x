@@ -1,4 +1,4 @@
-<h3 class="heading">Expenses</h3>
+<h3 class="heading">Your Doughnuts</h3>
 <div ng-controller = "ArticlesCtrl">
 	<a class="btn btn-default" href="#/categories">Return Home</a>
 	<div class="row">
@@ -8,12 +8,12 @@
 					<div class="article">
 						<h3>{{article.title}}</h3><p><strong>${{article.debit}}</strong></p>
 						<p>{{article.body | limitTo: 200}}</p>
-						<a class="btn btn-danger" href="#/articles/details/{{article._id}}">Read</a>
+						<a class="btn btn-danger" href="#/articles/details/{{article._id}}">View</a>
 					</div>
 				</div>
 			</div>
 			<div ng-if="articles == false">
-				No Expenses To Display
+				No Doughnuts To Show
 			</div>
 		</div>
 	</div>
