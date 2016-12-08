@@ -53,6 +53,19 @@ module.exports = {
 				})
 			}
 		})
+	},
+	login: function(req, res){
+		//  Validating User
+		User.findOne({
+			email: req.param('email')
+		}, function foundUser(err, user){
+			if(err){
+				return res.negotiate(err);
+			}
+			if(!user){
+				return res.notFound();
+			}
+		})
 	}
 };
 

@@ -30,8 +30,11 @@ var jsFilesToInject = [
 
   // Dependencies like jQuery, or Angular are brought in here
   // ** SignupMod should be loaded BEFORE SignupCtrl
-  'js/dependencies/jquery.3.1.1.js',  
+  'js/dependencies/jquery.3.1.1.js',
+  'js/dependencies/angular.js',  
   'js/dependencies/**/*.js',
+  'js/public/login/LoginMod.js',
+  'js/public/login/LoginCtrl.js',
   'js/public/signup/SignupMod.js',
   'js/public/signup/SignupCtrl.js',
 
